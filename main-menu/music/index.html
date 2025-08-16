@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soulless Funkmist Archive</title>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+  <canvas id="vhsCanvas"></canvas>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .centered-text {
+      color: white;
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      text-shadow:
+        -3px -3px 0 #000,
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000;
+      margin-bottom: 20px;
+    }
+
+    .centered-image {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+
+
+    .subtitle {
+      color: white;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p class="centered-text">Music</p>
+  <h2 class="centered-text">In this page, there is a webamp player, which you can move, inside this player, there are multiple Soulless Funkmist songs, click one, adjust your needs and be happy!</h2>
+<div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;">
+	<div id="winamp-container"></div>
+    <script>
+const Winamp = window.Webamp;
+
+const webamp = new Webamp({
+
+    initialTracks: [
+     {
+      metaData: {
+        artist: "ElPapu03",
+        title: "My Mind",
+     },
+      url: "https://files.catbox.moe/x06ukh.mp3",
+     },
+        {
+            metaData: {
+                artist: "IlasenumDaComposer",
+                title: "Predator",
+            },
+            url: "https://files.catbox.moe/3e6jb2.mp3",
+        }, 
+{
+    metaData: {
+        artist: "Agami-san",
+        title: "Squirrel Jokes",
+    },
+    url: "https://files.catbox.moe/c2vr2b.mp3",
+},
+       {
+            metaData: {
+                artist: "Sas Original",
+                title: "Faceless",
+            },
+            url: "https://files.catbox.moe/p55bam.ogg",
+        },
+        {
+            metaData: {
+                artist: "MrAdry",
+                title: "Killer Scary Single Squidward with Patrick Killed Over The Floor Song",
+            },
+            url: "https://files.catbox.moe/5r412o.mp3",
+        },
+      ],
+});
+webamp.renderWhenReady(document.getElementById('winamp-container'));
+</script>
+</div>
+  <canvas id="vhsCanvas"></canvas>
+  <div id="main-content">
+</body>
+</html>

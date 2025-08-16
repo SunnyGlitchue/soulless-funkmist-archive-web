@@ -4,10 +4,17 @@
   <meta charset="UTF-8">
   <title>Soulless Funkmist Archive</title>
   <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
   <canvas id="vhsCanvas"></canvas>
   <script src="main.js"></script>
+<audio id="bgMusic" src="gameisover.mp3" loop></audio>
+<script>
+  const music = document.getElementById('bgMusic');
+  document.addEventListener('click', () => {
+    music.play();
+  }, { once: true });
+</script>
   <link rel="stylesheet" href="style.css">
-<audio id="bg-music" src="menuSong.mp3" loop preload="auto"></audio>
   <style>
     body {
       margin: 0;
@@ -52,13 +59,19 @@
   </style>
 </head>
 <body>
-  <div id="popup">Press to enter the archive.</div>
-  <div class="vignette"></div>
-  <p class="centered-text">Welcome to the Soulless Funkmist Archive!</p>
-  <a href="/main-menu/index.html">
-    <img src="SoulIcon.png" alt="Mod's icon" class="centered-image">
-  </a>
-  <p class="subtitle">Click squidward to continue.</p>
+  <p class="centered-text">Click a button.</p>
+<a href="art/index.html">
+<img src="buttonArt.png" width="180" height="100">
+</a>
+<a href="music/index.html">
+<img src="buttonMusic.png" width="180" height="100">
+</a>
+<a href="builds/index.html">
+<img src="buttonBuilds.png" width="180" height="100">
+</a>
+<a href="extra/index.html">
+<img src="buttonExtra.png" width="180" height="100">
+</a>
   <canvas id="vhsCanvas"></canvas>
   <div id="main-content">
 </body>

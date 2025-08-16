@@ -164,3 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 });
 
+document.addEventListener('click', () => {
+  localStorage.setItem('musicActivated', 'true');
+});
+

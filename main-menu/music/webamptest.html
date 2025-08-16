@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="app" style="height: 100vh">
+      <!-- Webamp will attempt to center itself within this div -->
+    </div>
+    <script type="module">
+      import Webamp from "https://unpkg.com/webamp@^2";
+      const webamp = new Webamp({});
+
+      // Returns a promise indicating when it's done loading.
+      webamp.renderWhenReady(document.getElementById("app"));
+    </script>
+  </body>
+</html>
