@@ -82,15 +82,6 @@ html::before {
   navigation: auto;
 }
 
-img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png"] {
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png"]:hover {
-  transform: scale(1.2);
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -101,7 +92,5 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
-
-
 
 
