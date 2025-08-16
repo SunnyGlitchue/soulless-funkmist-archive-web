@@ -82,7 +82,7 @@ html::before {
   navigation: auto;
 }
 
-img[src="SoulIcon.png"] {
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png"] {
   transition: transform 0.3s ease;
   cursor: pointer;
 }
@@ -101,6 +101,7 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
+
 
 
 
