@@ -87,7 +87,7 @@ img[src="SoulIcon.png"] {
   cursor: pointer;
 }
 
-img[src="SoulIcon.png"]:hover {
+img[src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1280px-HD_transparent_picture.png"]:hover {
   transform: scale(1.2);
 }
 
@@ -101,5 +101,6 @@ body {
   align-items: center;
   overflow-x: hidden;
 }
+
 
 
