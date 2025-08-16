@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: repeating-conic-gradient(#8B0000 0 25%, #DC143C 0 50%) 0 0 / 80px 80px;
+  animation: move-bg 4s linear infinite;
+  z-index: -1;
+}
+
+@keyframes move-bg {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-80px, -80px);
+  }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+img[src="SoulIcon.png"] {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+img[src="SoulIcon.png"]:hover {
+  transform: scale(1.2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+

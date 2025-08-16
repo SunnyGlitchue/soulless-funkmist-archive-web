@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soulless Funkmist Archive</title>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <canvas id="vhsCanvas"></canvas>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+<audio id="bg-music" src="menuSong.mp3" loop preload="auto"></audio>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .centered-text {
+      color: white;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      text-shadow:
+        -3px -3px 0 #000,
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000;
+      margin-bottom: 20px;
+    }
+
+    .centered-image {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+
+
+    .subtitle {
+      color: white;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="popup">Press to enter the archive.</div>
+  <p class="centered-text">Welcome to the Soulless Funkmist Archive!</p>
+  <a href="/main-menu/index.html">
+    <img src="SoulIcon.png" alt="Mod's icon" class="centered-image">
+  </a>
+  <p class="subtitle">Click squidward to continue.</p>
+  <canvas id="vhsCanvas"></canvas>
+  <div id="main-content">
+</body>
+</html>
