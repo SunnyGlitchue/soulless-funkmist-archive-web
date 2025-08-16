@@ -4,7 +4,7 @@ const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('vhsC
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 const geometry = new THREE.PlaneBufferGeometry(2, 2);
-const texture = new THREE.TextureLoader().load('SoulIcon.png');
+const texture = new THREE.TextureLoader().load('Blank.png');
 
 const material = new THREE.ShaderMaterial({
   fragmentShader: `
@@ -163,3 +163,4 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener(event, unlockAudio)
   );
 });
+
