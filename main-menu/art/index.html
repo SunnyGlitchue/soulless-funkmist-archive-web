@@ -7,7 +7,7 @@
   <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
   <canvas id="vhsCanvas"></canvas>
   <script src="main.js"></script>
-<audio id="bgMusic" src="gameisover.mp3" loop></audio>
+<audio id="bgMusic" src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/predator/Inst%20(4).ogg" loop></audio>
 <script>
   const music = document.getElementById('bgMusic');
   document.addEventListener('click', () => {
@@ -22,22 +22,32 @@
       height: 100vh;
       background-color: black;
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
     }
 
     .centered-text {
       color: white;
-      font-size: 50px;
+      font-size: clamp(24px, 6vw, 50px);
       font-family: 'Times New Roman', Times, serif;
-      text-align: center;
+      text-align: left;
       text-shadow:
         -3px -3px 0 #000,
          3px -3px 0 #000,
         -3px  3px 0 #000,
          3px  3px 0 #000;
       margin-bottom: 20px;
+    }
+
+    .centered-desc {
+      color: white;
+      font-size: clamp(12px, 3vw, 14px);
+      font-family: 'Times New Roman', Times, serif;
+      text-align: left;
+      text-shadow:
+        -3px -3px 0 #000,
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000;
     }
 
     .centered-image {
@@ -47,11 +57,9 @@
       margin: 0 auto;
     }
 
-
-
     .subtitle {
       color: white;
-      font-size: 24px;
+      font-size: clamp(16px, 4vw, 24px);
       font-family: 'Times New Roman', Times, serif;
       text-align: center;
       margin-top: 10px;
@@ -59,45 +67,528 @@
   </style>
 </head>
 <body>
-  <p class="centered-text">Week 1.</p>
-  <h1 class="centered-text">My Mind </h1>
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_5terre.jpg">
-      <img src="img_5terre.jpg" alt="Cinque Terre">
+<h1 class="gallery-title">My Mind</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full first section concept">
+    </a>
+    <p class="desc">Full first section concept</p>
+   </div>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Squidward_New_EL_FINAL_POSESS_aaa.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Squidward_New_EL_FINAL_POSESS_aaa.png" alt="Squidward second section sprite concept">
+    </a>
+    <p class="desc">Squidward second section sprite concept <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/CalamardoRemake.png">PNG</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/CalamardoRemake.xml">XML</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/CalamardoRemake.json">JSON</a></p>
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_forest.jpg">
-      <img src="img_forest.jpg" alt="Forest">
+<h1 class="gallery-title">Ninth Symphony</h1>
+
+<div class="gallery-wrapper">
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/IMG_6980.jfif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/IMG_6980.jfif" alt="Poster concept">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <p class="desc">Poster concept</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012325.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012325.png" alt="Concept 1">
+    </a>
+    <p class="desc">Concept 1</p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/GLARudMXAAAW1eH.jfif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/GLARudMXAAAW1eH.jfif" alt="Ditto but colored">
+    </a>
+    <p class="desc">Ditto, but colored.</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012345.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012345.png" alt="Concept 2">
+    </a>
+    <p class="desc">Concept 2</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012349.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Final_Symphony_Concepts_20240206012349.png" alt="Concept 3">
+    </a>
+    <p class="desc">Concept 3</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Squidward.gif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Squidward.gif" alt="Squidward's sprite.">
+    </a>
+    <p class="desc">Squidward's sprite.</p>
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_lights.jpg">
-      <img src="img_lights.jpg" alt="Northern Lights">
+<h1 class="gallery-title">Jettison</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/jettison/1039_sin_titulo_20240822184853.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/jettison/1039_sin_titulo_20240822184853.png" alt="Scared phase idle and down.">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <p class="desc">Scared phase idle and down.</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/jettison/GK_ux2XW0AAM9QM.jfif" alt="Idle">
+    </a>
+    <p class="desc">Idle</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/jettison/84 sin título_20240822195602.jpg">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/jettison/84 sin título_20240822195602.jpg" alt="Meme made for fun.">
+    </a>
+    <p class="desc">Meme made for fun.</p>
   </div>
 </div>
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="img_mountains.jpg">
-      <img src="img_mountains.jpg" alt="Mountains">
+<h1 class="gallery-title">Ulterior</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/1106_20240204163832.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/1106_20240204163832.png" alt="Background sketch/concept">
     </a>
-    <div class="desc">Add a description of the image here</div>
+    <p class="desc">Background sketch/concept</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/132_sin_titulo_20240319130733.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/132_sin_titulo_20240319130733.png" alt="Yummer idle and up pose">
+    </a>
+    <p class="desc">Yummer idle and up pose</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/yummer_queeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_como.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/ulterior/yummer_queeeeeeeeeeeeeeeeeeeeeeeeeeeeeee_como.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Killer Scary Single Squidward with Patrick Killed Over The Floor Song</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/Calamardo_racista.gif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/Calamardo_racista.gif" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">BNRAN Sprite <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/Racistward.png">PNG</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/Racistward.xml">XML</a> </p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image (64).png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image (64).png" alt="Patrick sprite">
+    </a>
+    <p class="desc">Patrick sprite <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/PatricioElEsenciado.png">PNG</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/PatricioElEsenciado.xml">XML</a></p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image%20(65).png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image%20(65).png" alt="BNRAN Sprite, but static.">
+    </a>
+    <p class="desc">BNRAN Sprite, but static.</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image%20(66).png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/bnran/image%20(66).png" alt="BNRAN Sketch">
+    </a>
+    <p class="desc">BNRAN's original sketch</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Faceless</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/faceless/GLAek70XAAAH4rI.jfif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/faceless/GLAek70XAAAH4rI.jfif" alt="Pico concept">
+    </a>
+    <p class="desc">Pico concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Upchuck</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://pbs.twimg.com/media/GLEJlW4WEAAOQZM.jpg?name=orig">
+      <img src="https://pbs.twimg.com/media/GLEJlW4WEAAOQZM.jpg?name=orig" alt="Girlfriend sprite">
+    </a>
+    <p class="desc">Girlfriend sprite (xml and json not available)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://pbs.twimg.com/media/GLEJlW9WwAE4hlh.jpg">
+      <img src="https://pbs.twimg.com/media/GLEJlW9WwAE4hlh.jpg" alt="Boyfriend sprite">
+    </a>
+    <p class="desc">Boyfriend sprite (xml and json not available)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://pbs.twimg.com/media/GLEJlW5WcAERbMU.jpg">
+      <img src="https://pbs.twimg.com/media/GLEJlW5WcAERbMU.jpg" alt="Sickpants sprite">
+    </a>
+    <p class="desc">Sickpants sprite (xml and json not available)</p>
+  </div>
+</div>
+<h1 class="gallery-title">Squirrel Jokes</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Captura_de_pantalla_2014.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Captura_de_pantalla_2014.png" alt="Background progress">
+    </a>f
+    <p class="desc">Background progress</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Captura_de_pantalla_2055.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Captura_de_pantalla_2055.png" alt="Boyfriend progress">
+    </a>
+    <p class="desc">Boyfriend progress</p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/image%20(63).png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/image%20(63).png" alt="Boyfriend progress 2">
+    </a>
+    <p class="desc">Boyfriend progress 2</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PAMTRI_BG_KAJSDHGASD.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PAMTRI_BG_KAJSDHGASD.png" alt="Background">
+    </a>
+    <p class="desc">Background <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/blend/pamtribg.blend">Blender file</a></p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBFNEW.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBFNEW.png" alt="Boyfriend sprite">
+    </a>
+    <p class="desc">Boyfriend sprite <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBFNEW.xml">XML</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/blend/boyfriendpamtri.blend">Blender file</a> </p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBOB.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBOB.png" alt="Pamtri sprite">
+    </a>
+    <p class="desc">Pamtri spongebob sprite <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PBOB.xml">XML</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/blend/pamtribob.blend">Blender file</a> </p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Pangry.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Pangry.png" alt="Pamtri mad sprite">
+    </a>
+    <p class="desc">Ditto, but angry. <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Pangry.xml">XML</a></p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/right_png.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/right_png.png" alt="Angry right pose">
+    </a>
+    <p class="desc">Angry right pose</p>
+  </div>
+
+    <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PGF.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PGF.png" alt="Girlfriend sprite">
+    </a>
+    <p class="desc">Girlfriend sprite <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/PGF.xml">XML</a> <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/blend/gfpamtri.blend">Blender file</a> </p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/IMG_20240221_2122538203.jpg">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/IMG_20240221_2122538203.jpg" alt="Loading screen sketch">
+    </a>
+    <p class="desc">Loading screen sketch</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Secret Formula</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/129_sin_titulo_20240609140327.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/129_sin_titulo_20240609140327.png" alt="Boyfriend idle">
+    </a>
+    <p class="desc">Boyfriend idle</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/que.gif">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/que.gif" alt="Squidward idle">
+    </a>
+    <p class="desc">Meatcanyon Squidward idle</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/313_sin_titulo_20240331172938.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/secretformula/313_sin_titulo_20240331172938.png" alt="Meatcanyon squidward right pose">
+    </a>
+    <p class="desc">Meatcanyon squidward right pose</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Predator</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/predator/Predator rendefr.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/predator/Predator rendefr.png" alt="Slendybob Artwork">
+    </a>
+    <p class="desc">Slendybob Artwork</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://pbs.twimg.com/media/GLEJL1YXwAA5kGd.jpg?name=orig">
+      <img src="https://pbs.twimg.com/media/GLEJL1YXwAA5kGd.jpg?name=orig" alt="Predator background">
+    </a>
+    <p class="desc">Predator background <a href="https://files.catbox.moe/ffr42v.zip">Stage assets</a> </p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/predator/89_sin_titulo_2024-Image.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/predator/89_sin_titulo_2024-Image.png" alt="Doodlebob idle">
+    </a>
+    <p class="desc">Doodlebob's idle</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Discared</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Enigmatic Tides</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Krusty and Krabby</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Dismal</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Scary Sponge</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+<h1 class="gallery-title">Ninth Symphony</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Not Safe for Work</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
+  </div>
+</div>
+
+<h1 class="gallery-title">Ahoy Me Boy!</h1>
+
+<div class="gallery-wrapper">
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2548.png" alt="Clarinet section concept (1)">
+    </a>
+    <p class="desc">Clarinet section concept (1)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/Captura_de_pantalla_2557.png" alt="Clarinet section concept (2)">
+    </a>
+    <p class="desc">Clarinet section concept (2)</p>
+  </div>
+
+  <div class="gallery-item">
+    <a target="_blank" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png">
+      <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/week1/My_mind_first_section_concept_complete.png" alt="Full concept">
+    </a>
+    <p class="desc">Full concept</p>
   </div>
 </div>
 
 <div class="clearfix"></div>
+
   <canvas id="vhsCanvas"></canvas>
   <div id="main-content">
 </body>
