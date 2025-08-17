@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PBFNEW.png">
+<SubTexture name="PBF idle0000" x="0" y="1580" width="848" height="709" frameX="-139" frameY="-173" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF left0000" x="0" y="832" width="859" height="748" frameX="-42" frameY="-130" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF left0001" x="0" y="832" width="859" height="748" frameX="-42" frameY="-130" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF left0002" x="1695" y="0" width="882" height="717" frameX="-94" frameY="-154" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF left0003" x="1695" y="0" width="882" height="717" frameX="-94" frameY="-154" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF right0000" x="2577" y="0" width="913" height="653" frameX="-224" frameY="-236" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF right0001" x="2577" y="0" width="913" height="653" frameX="-224" frameY="-236" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF right0002" x="1695" y="717" width="876" height="716" frameX="-230" frameY="-175" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF right0003" x="1695" y="717" width="876" height="716" frameX="-230" frameY="-175" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF up0000" x="0" y="0" width="829" height="832" frameX="-196" frameY="-45" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF up0001" x="0" y="0" width="829" height="832" frameX="-196" frameY="-45" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF up0002" x="829" y="0" width="866" height="803" frameX="-151" frameY="-84" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF up0003" x="829" y="0" width="866" height="803" frameX="-151" frameY="-84" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF down0000" x="2577" y="1305" width="820" height="636" frameX="-152" frameY="-270" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF down0001" x="2577" y="1305" width="820" height="636" frameX="-152" frameY="-270" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF down0002" x="848" y="1580" width="838" height="674" frameX="-135" frameY="-205" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF down0003" x="848" y="1580" width="838" height="674" frameX="-135" frameY="-205" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0000" x="859" y="832" width="716" height="610" frameX="-40" frameY="-249" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0001" x="859" y="832" width="716" height="610" frameX="-40" frameY="-249" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0002" x="0" y="2289" width="1001" height="651" frameX="-166" frameY="-248" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0003" x="0" y="2289" width="1001" height="651" frameX="-166" frameY="-248" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0004" x="2577" y="653" width="657" height="652" frameX="-179" frameY="-228" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0005" x="2577" y="653" width="657" height="652" frameX="-179" frameY="-228" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0006" x="2577" y="0" width="913" height="653" frameX="-224" frameY="-236" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0007" x="2577" y="0" width="913" height="653" frameX="-224" frameY="-236" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0008" x="2577" y="1305" width="820" height="636" frameX="-152" frameY="-270" frameWidth="1212" frameHeight="964" />
+<SubTexture name="PBF fallo0009" x="2577" y="1305" width="820" height="636" frameX="-152" frameY="-270" frameWidth="1212" frameHeight="964" />
+</TextureAtlas>

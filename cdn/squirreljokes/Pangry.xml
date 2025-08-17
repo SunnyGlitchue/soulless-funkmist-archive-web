@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Pangry.png">
+<SubTexture name="Pangry idle0000" x="1686" y="0" width="674" height="862" frameX="-182" frameY="-177" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry right0000" x="0" y="978" width="890" height="856" frameX="-374" frameY="-167" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry right0001" x="0" y="978" width="890" height="856" frameX="-374" frameY="-167" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry right0002" x="890" y="978" width="880" height="856" frameX="-327" frameY="-168" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry right0003" x="890" y="978" width="880" height="856" frameX="-327" frameY="-168" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry left0000" x="2360" y="0" width="891" height="842" frameX="-88" frameY="-186" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry left0001" x="2360" y="0" width="891" height="842" frameX="-88" frameY="-186" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry left0002" x="0" y="1834" width="941" height="833" frameX="-54" frameY="-194" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry left0003" x="0" y="1834" width="941" height="833" frameX="-54" frameY="-194" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry up0000" x="0" y="0" width="814" height="978" frameX="-145" frameY="-54" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry up0001" x="0" y="0" width="814" height="978" frameX="-145" frameY="-54" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry up0002" x="814" y="0" width="872" height="935" frameX="-139" frameY="-98" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry up0003" x="814" y="0" width="872" height="935" frameX="-139" frameY="-98" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry down0000" x="941" y="1834" width="823" height="748" frameX="-150" frameY="-282" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry down0001" x="941" y="1834" width="823" height="748" frameX="-150" frameY="-282" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry down0002" x="2360" y="842" width="829" height="777" frameX="-145" frameY="-249" frameWidth="1364" frameHeight="1124" />
+<SubTexture name="Pangry down0003" x="2360" y="842" width="829" height="777" frameX="-145" frameY="-249" frameWidth="1364" frameHeight="1124" />
+</TextureAtlas>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PBOB.png">
+<SubTexture name="PBOB idle0000" x="794" y="743" width="604" height="677" frameX="-147" frameY="-118" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB left0000" x="0" y="743" width="794" height="683" frameX="0" frameY="-112" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB left0001" x="0" y="743" width="794" height="683" frameX="0" frameY="-112" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB left0002" x="1437" y="0" width="741" height="672" frameX="-72" frameY="-122" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB left0003" x="1437" y="0" width="741" height="672" frameX="-72" frameY="-122" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB right0000" x="1437" y="672" width="713" height="665" frameX="-268" frameY="-128" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB right0001" x="1437" y="672" width="713" height="665" frameX="-268" frameY="-128" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB right0002" x="0" y="1426" width="713" height="651" frameX="-239" frameY="-143" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB right0003" x="0" y="1426" width="713" height="651" frameX="-239" frameY="-143" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB up0000" x="0" y="0" width="691" height="743" frameX="-74" frameY="-57" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB up0001" x="0" y="0" width="691" height="743" frameX="-74" frameY="-57" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB up0002" x="691" y="0" width="746" height="704" frameX="-53" frameY="-95" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB up0003" x="691" y="0" width="746" height="704" frameX="-53" frameY="-95" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB down0000" x="1350" y="1426" width="690" height="613" frameX="-112" frameY="-176" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB down0001" x="1350" y="1426" width="690" height="613" frameX="-112" frameY="-176" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB down0002" x="713" y="1426" width="637" height="625" frameX="-181" frameY="-158" frameWidth="1119" frameHeight="828" />
+<SubTexture name="PBOB down0003" x="713" y="1426" width="637" height="625" frameX="-181" frameY="-158" frameWidth="1119" frameHeight="828" />
+</TextureAtlas>

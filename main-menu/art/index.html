@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soulless Funkmist Archive</title>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+  <canvas id="vhsCanvas"></canvas>
+  <script src="main.js"></script>
+<audio id="bgMusic" src="gameisover.mp3" loop></audio>
+<script>
+  const music = document.getElementById('bgMusic');
+  document.addEventListener('click', () => {
+    music.play();
+  }, { once: true });
+</script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .centered-text {
+      color: white;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      text-shadow:
+        -3px -3px 0 #000,
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000;
+      margin-bottom: 20px;
+    }
+
+    .centered-image {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+
+
+    .subtitle {
+      color: white;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p class="centered-text">Week 1.</p>
+  <h1 class="centered-text">My Mind </h1>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+  <canvas id="vhsCanvas"></canvas>
+  <div id="main-content">
+</body>
+</html>

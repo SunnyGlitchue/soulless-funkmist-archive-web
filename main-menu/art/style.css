@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#vhsCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none; 
+  opacity: 0.5;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: repeating-conic-gradient(#8B0000 0 25%, #DC143C 0 50%) 0 0 / 80px 80px;
+  animation: move-bg 4s linear infinite;
+  z-index: -1;
+}
+
+.tv-line {
+  width: 100vw;
+  height: 2px;
+  background: white;
+  animation: tvOn 1.5s ease-out forwards;
+}
+
+@keyframes tvOn {
+  0% {
+    height: 2px;
+    opacity: 1;
+  }
+  30% {
+    height: 100vh;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes move-bg {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-80px, -80px);
+  }
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

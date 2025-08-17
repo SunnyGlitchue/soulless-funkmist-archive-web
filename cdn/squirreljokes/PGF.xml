@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="PGF.png">
+<SubTexture name="PGF idle0000" x="0" y="0" width="472" height="609" frameX="-66" frameY="-18" frameWidth="594" frameHeight="670" />
+</TextureAtlas>
