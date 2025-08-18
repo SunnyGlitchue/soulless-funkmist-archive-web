@@ -54,7 +54,7 @@
 <body>
   <p class="centered-text">Music</p>
   <h2 class="centered-text">In this page, there is a webamp player, which you can move, inside this player, there are multiple Soulless Funkmist songs, click one, adjust your needs and be happy!</h2>
-<div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;">
+<div style="width:100px; height:100px; position:fixed; bottom:0px; left:0px;">
 	<div id="winamp-container"></div>
     <script>
 const Winamp = window.Webamp;
@@ -62,6 +62,13 @@ const Winamp = window.Webamp;
 const webamp = new Webamp({
 
     initialTracks: [
+        {
+            metaData: {
+                artist: "Delete That",
+                title: "Approximation",
+            },
+            url: "https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/approximation/approximation_vocals_remade.mp3",
+        },
      {
       metaData: {
         artist: "ElPapu03",
@@ -92,10 +99,31 @@ const webamp = new Webamp({
         },
         {
             metaData: {
+                artist: "ElPapu03",
+                title: "Duende y Nigga",
+            },
+            url: "https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/duendeytusabes/duende y ya tu sabe v2.mp3",
+        },
+        {
+            metaData: {
                 artist: "MrAdry",
                 title: "Killer Scary Single Squidward with Patrick Killed Over The Floor Song",
             },
             url: "https://files.catbox.moe/5r412o.mp3",
+        },
+        {
+            metaData: {
+                artist: "Sunny",
+                title: "My Mind (April Fools Mix)",
+            },
+            url: "https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/april-fools/my_mins_april_fools.mp3",
+        },
+        {
+            metaData: {
+                artist: "Sunny",
+                title: "Dreams (April Fools Mix)",
+            },
+            url: "https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/april-fools/Dreams_april_fools.mp3",
         },
       ],
 });
