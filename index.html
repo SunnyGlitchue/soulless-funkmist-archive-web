@@ -5,21 +5,16 @@
   <title>Soulless Funkmist Archive</title>
   <link rel="icon" type="image/x-icon" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/favicon.ico">
   <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
-  <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
   <canvas id="vhsCanvas"></canvas>
   <script src="main.js"></script>
-  <meta name="title" content="Soulless Funkmist Archive - Select" />
-  <meta name="author" content="Sunny" />
-  <meta name="description" content="The page selector of the Soulless Funkmist Archive." />
-  <meta name="keywords" content="fnf, soulless funkmist, archive, mod, friday night funkin, music, art, fnf mod, friday night funkin mod, fnf mods, friday night funkin mods, squidward, red mist, squidward red mist, squidward funkmist, spongebob squarepants, horror, scary, fabs, elbenjag, senren, sez, elpapu03, patrick, spongebob squarepants, mod archive, considerable archive" />
-<audio id="bgMusic" src="gameisover.mp3" loop></audio>
-<script>
-  const music = document.getElementById('bgMusic');
-  document.addEventListener('click', () => {
-    music.play();
-  }, { once: true });
-</script>
   <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json" />
+  <meta name="title" content="Soulless Funkmist Archive" />
+  <meta name="author" content="Sunny" />
+  <meta name="description" content="A extensive archive of the mod Soulless Funkmist that gets constantly updated." />
+  <meta name="keywords" content="fnf, soulless funkmist, archive, mod, friday night funkin, music, art, fnf mod, friday night funkin mod, fnf mods, friday night funkin mods, squidward, red mist, squidward red mist, squidward funkmist, spongebob squarepants, horror, scary, fabs, elbenjag, senren, sez, elpapu03, patrick, spongebob squarepants, mod archive, considerable archive" />
+
+<audio id="bg-music" src="menuSong.mp3" loop preload="auto"></audio>
   <style>
     body {
       margin: 0;
@@ -64,20 +59,14 @@
   </style>
 </head>
 <body>
-  <p class="centered-text">Click a button.</p>
-<a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/art">
-<img src=buttonArt.png" width="180" height="100">
-</a>
-<a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/music/">
-<img src="buttonMusic.png" width="180" height="100">
-</a>
-<a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/builds/">
-<img src="buttonBuilds.png" width="180" height="100">
-</a>
-<a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/extra/">
-<img src="buttonExtra.png" width="180" height="100">
-</a>
+  <div id="popup">Press to enter the archive.</div>
+  <p class="centered-text">Welcome to the Soulless Funkmist Archive!</p>
+  <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/">
+    <img src="SoulIcon.png" alt="Mod's icon" class="centered-image">
+  </a>
+  <p class="subtitle">Click squidward to continue.</p>
   <canvas id="vhsCanvas"></canvas>
   <div id="main-content">
 </body>
 </html>
+
