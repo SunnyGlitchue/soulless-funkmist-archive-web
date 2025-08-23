@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soulless Funkmist Archive</title>
+  <link rel="icon" type="image/x-icon" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+  <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+  <canvas id="vhsCanvas"></canvas>
+  <script src="main.js"></script>
+  <meta name="title" content="Soulless Funkmist Archive - Builds" />
+  <meta name="author" content="Sunny" />
+  <meta name="description" content="The builds of the Soulless Funkmist Archive." />
+  <meta name="keywords" content="fnf, soulless funkmist, archive, mod, friday night funkin, music, art, fnf mod, friday night funkin mod, fnf mods, friday night funkin mods, squidward, red mist, squidward red mist, squidward funkmist, spongebob squarepants, horror, scary, fabs, elbenjag, senren, sez, elpapu03, patrick, spongebob squarepants, mod archive, considerable archive" />
+<audio id="bgMusic" src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/Inst%20(3).ogg" loop></audio>
+<script>
+  const music = document.getElementById('bgMusic');
+  document.addEventListener('click', () => {
+    music.play();
+  }, { once: true });
+</script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-color: black;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .centered-text {
+      color: white;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      text-shadow:
+        -3px -3px 0 #000,
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000;
+      margin-bottom: 20px;
+    }
+
+    .centered-image {
+      width: 240px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .subtitle {
+      color: white;
+      font-size: 24px;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/" class="back-button">
+  <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/main-menu/buttonBack.png" alt="Back">
+</a>
+
+<div class="build-container">
+  <div class="funkmist-build">
+    <div class="build-header">FNF SOULLESS FUNKMIST 1.0 BETA</div>
+    <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/other/64d01fdc2e3b8.jpg" alt="Build thumbnail">
+    <div class="build-meta">Released in: 2023-08-06 at 22:50:37 UTC.<br>Description: mod about red mist and others spongebob creeppypastas.</div>
+    <button class="access-btn" onclick="window.open('https://drive.google.com/file/d/16xt6UgEAsk6FFc_TnDowV4FSrTERfEr-/view?usp=drive_link', '_blank')">Download</button>
+  </div>
+
+  <div class="funkmist-build">
+    <div class="build-header">Soulless Funkmist</div>
+    <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/other/Soulless_Funkmist_New_Banner.jpg" alt="Build thumbnail">
+    <div class="build-meta">Released in: 2024-02-01 at 20:59:21 UTC.<br>Description: A new version of the Soulless Funkmist mod, it contains 13 songs in total and many things remastered from the old version, this version brings many more characters based on creepypastas and parodies of spongebob.</div>
+    <button class="access-btn" onclick="window.open('https://drive.google.com/file/d/18xa3k3A-YK18Bd0VglRAq9MKyy2sdkeW/view?usp=drive_link', '_blank')">Download</button>
+    <button class="access-btn" onclick="window.open('https://github.com/Juan0521/SoullessFunkmistOlaSez/', '_blank')">Source Code</button>
+  </div>
+
+  <div class="funkmist-build">
+    <div class="build-header">Soulless Funkmist 1.5 (April Fools Update)</div>
+    <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/other/SoullessLogo.png" alt="Build thumbnail">
+    <div class="build-meta">Released in: Unknown.<br>Description: 1.5 is out! With new songs incluided, such as Krusty & Krabby, Predator, Discared, and so much more!.</div>
+    <button class="access-btn" onclick="window.open('https://drive.google.com/file/d/1fe-QMwuX0lrnCIeBFS_omEiFB-xTqFad/view?usp=drive_link', '_blank')">Download</button>
+  </div>
+
+  <div class="funkmist-build">
+    <div class="build-header">Spongething Build + Predator, by T-BAR</div>
+    <img src="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/other/SoullessFunkmistNewLogo.png" alt="Build thumbnail">
+    <div class="build-meta">Released in: Unknown.<br>Description: None.</div>
+    <button class="access-btn" onclick="window.open('https://drive.google.com/file/d/1VonprRJsM_Da6q5NLkd9klPZ0kMRBRf2/view?usp=drive_link', '_blank')">Download</button>
+  </div>
+</div>
+
+  <canvas id="vhsCanvas"></canvas>
+  <div id="main-content">
+</body>
+</html>
