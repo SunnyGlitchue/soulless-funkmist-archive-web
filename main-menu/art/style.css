@@ -170,3 +170,28 @@ div.gallery:hover {
   clear: both;
 }
 
+.back-button {
+  position: fixed;
+  bottom: -30px;
+  right: 20px;
+  z-index: 9999;
+  width: 140px;
+  height: 140px;
+  display: block;
+  overflow: hidden;
+}
+
+.back-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: filter 0.2s ease;
+  filter: drop-shadow(0 0 6px #ff00cc88);
+}
+
+.back-button:hover img {
+  filter: brightness(1.2);
+}
+
+
