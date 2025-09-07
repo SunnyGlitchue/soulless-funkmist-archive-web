@@ -5,6 +5,7 @@
   <title>Soulless Funkmist Archive</title>
   <link rel="icon" type="image/x-icon" href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/favicon.ico">
 <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
   </head><body><canvas id="vhsCanvas"></canvas>
   <script src="main.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -358,8 +359,20 @@
 </div>
 <br>
 
+  <p class="centered-text">Charts</p>
+  <li>
+    <a href="https://sunnyglitchue.github.io/soulless-funkmist-archive-web/cdn/squirreljokes/squirrel-jokes-hard.json" class="centered-smol-text">Squirrel Jokes chart</a>
+  </li>
+
+    <p class="centered-text">MIDIs </p>
+<midi-player
+  src="https://files.catbox.moe/ynl906.mid"
+  sound-font visualizer="#Visualizer">
+</midi-player>
+<midi-visualizer type="piano-roll" id="Visualizer"></midi-visualizer>
+
 <div class="data-box">
-  <p class="centered-text">Funkmist Facts</p>
+  <p class="centered-text">Funk-Facts</p>
   <ol>
     <li class="centered-smol-text">Until 2.0 development, Bootleg Spongebob and Yummer we're planned to have weeks, until 2024, when Fabs decided to remove each week's two songs and leave one song for each of the for Freeplay. </li>
     <li class="centered-smol-text">In Mid 2024, old Soulless Funkmist dev servers were wiped out, resulting in most of the old Soulless Funkmist art and music as lost media.</li>
