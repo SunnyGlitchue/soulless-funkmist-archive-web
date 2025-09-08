@@ -16,6 +16,10 @@ html, body {
   opacity: 0.5;
 }
 
+body {
+  cursor: url('https://soullessfunkmistarchive.github.io/storage2/page-files/spongebob_cursor.png'), 0 0, auto;
+}
+
 #popup {
   position: fixed;
   top: 0;

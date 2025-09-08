@@ -11,6 +11,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+body {
+  cursor: url('https://soullessfunkmistarchive.github.io/storage2/page-files/spongebob_cursor.png'), 0 0, auto;
+}
+
 #vhsCanvas {
   position: fixed;
   top: 0;
