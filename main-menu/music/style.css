@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  cursor: url('https://soullessfunkmistarchive.github.io/storage2/page-files/spongebob_cursor.png'), auto;
   overflow-x: hidden;
 }
 
@@ -14,10 +15,6 @@ html, body {
   z-index: 9999;
   pointer-events: none; 
   opacity: 0.5;
-}
-
-body {
-  cursor: url('https://soullessfunkmistarchive.github.io/storage2/page-files/spongebob_cursor.png'), 0 0, auto;
 }
 
 #popup {
@@ -34,7 +31,6 @@ body {
   align-items: center;
   font-size: 24px;
   z-index: 10000;
-  cursor: pointer;
   opacity: 1;
   transition: opacity 0.5s ease;
 }
