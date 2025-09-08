@@ -156,6 +156,7 @@ body {
   font-family: 'Trebuchet MS', serif;
   position: absolute;
   top: 0;
+  z-index: 10;
 }
 
 .dot {
