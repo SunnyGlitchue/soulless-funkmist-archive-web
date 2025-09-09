@@ -168,3 +168,10 @@ document.addEventListener('click', () => {
   localStorage.setItem('musicActivated', 'true');
 });
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(() => console.log('Service Worker worked'))
+    .catch(err => console.error('Service Worker failed... damn:', err));
+}
+
+
