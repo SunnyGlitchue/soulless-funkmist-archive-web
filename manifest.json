@@ -1,0 +1,49 @@
+{
+  "name": "Soulless Funkmist Archive",
+  "short_name": "Funkmist Archive",
+  "start_url": "/soulless-funkmist-archive-web?source=pwa",
+  "scope": "/soulless-funkmist-archive-web/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#841e34",
+  "theme_color": "#741024",
+  "description": "Have you ever wanted to see the Soulless Funkmist mysteries?",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+"shortcuts": [
+  {
+    "name": "Check the Gallery",
+    "short_name": "Gallery",
+    "description": "Download and appreciate the mod's art",
+    "url": "/main-menu/art/"
+  },
+  {
+    "name": "Check the Music",
+    "short_name": "Music",
+    "description": "Listen to the mod's music",
+    "url": "/main-menu/music/"
+  },
+  {
+    "name": "Check the Builds",
+    "short_name": "Builds",
+    "description": "Download and play the mod's builds",
+    "url": "/main-menu/builds/"
+  },
+  {
+    "name": "Check the Extras",
+    "short_name": "Extras",
+    "description": "Download, read and know about Soulless Funkmist",
+    "url": "/main-menu/extra/"
+  }
+]
+}
