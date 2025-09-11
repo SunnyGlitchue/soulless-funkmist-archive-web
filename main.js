@@ -169,9 +169,13 @@ document.addEventListener('click', () => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js')
-    .then(() => console.log('Service Worker worked'))
-    .catch(err => console.error('Service Worker failed... damn:', err));
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('Service Worker detected', registration);
+      })
+      .catch(error => {
+        console.log('Service Worker detectednt:', error);
+      });
+  });
 }
-
-
