@@ -1,4 +1,4 @@
-const scene = new THREE.Scene();
+ const scene = new THREE.Scene();
 const camera = new THREE.Camera();
 const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('vhsCanvas') });
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -164,10 +164,6 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 });
 
-document.addEventListener('click', () => {
-  localStorage.setItem('musicActivated', 'true');
-});
-
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/service-worker.js')
@@ -179,3 +175,12 @@ if ('serviceWorker' in navigator) {
       });
   });
 }
+
+ document.body.addEventListener('click', () => {
+      localStorage.setItem('musicActivated', 'true');
+      document.querySelector('.bf').classList.add('show');
+      document.querySelector('.gf').classList.add('show');
+      document.querySelector('.mod-icon').classList.add('show');
+      document.querySelector('.logo').classList.add('visible');
+      document.querySelector('.subtitle').classList.add('show')
+});
