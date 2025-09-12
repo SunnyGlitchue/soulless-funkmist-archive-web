@@ -25,25 +25,25 @@
     "name": "Check the Gallery",
     "short_name": "Gallery",
     "description": "Download and appreciate the mod's art",
-    "url": "/main-menu/art/"
+    "url": "/art/"
   },
   {
     "name": "Check the Music",
     "short_name": "Music",
     "description": "Listen to the mod's music",
-    "url": "/main-menu/music/"
+    "url": "/music/"
   },
   {
     "name": "Check the Builds",
     "short_name": "Builds",
     "description": "Download and play the mod's builds",
-    "url": "/main-menu/builds/"
+    "url": "/builds/"
   },
   {
     "name": "Check the Extras",
     "short_name": "Extras",
     "description": "Download, read and know about Soulless Funkmist",
-    "url": "/main-menu/extra/"
+    "url": "/extra/"
   }
 ]
 }
